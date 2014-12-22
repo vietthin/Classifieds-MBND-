@@ -1,0 +1,211 @@
+[
+    {
+        "name": "azt3k/non-destructive-archive-installer",
+        "version": "0.2.12",
+        "version_normalized": "0.2.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/azt3k/non-destructive-archive-installer.git",
+            "reference": "de8b65be488c4ce03f83a1cdf633c9ddff68cdde"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/azt3k/non-destructive-archive-installer/zipball/de8b65be488c4ce03f83a1cdf633c9ddff68cdde",
+            "reference": "de8b65be488c4ce03f83a1cdf633c9ddff68cdde",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-30 08:15:51",
+        "type": "composer-installer",
+        "extra": {
+            "class": [
+                "ABC\\Composer\\NonDestructiveArchiveInstallerInstaller"
+            ]
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "ABC": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aaron Latham-Ilari",
+                "email": "abcdigital@abcdigital.co.nz"
+            }
+        ],
+        "description": "A composer installer type that allows you to unpack archives to a specific location in a non destructive way - it is very useful when some packages need to be installed inside another package folder - e.g. drupal and modules"
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.0.19",
+        "version_normalized": "1.0.19.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
+            "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
+            "shasum": ""
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-11-29 01:29:17",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "drupal/drupal",
+        "version": "7.32.0",
+        "version_normalized": "7.32.0.0",
+        "dist": {
+            "type": "zip",
+            "url": "http://ftp.drupal.org/files/projects/drupal-7.32.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "azt3k/non-destructive-archive-installer": "*"
+        },
+        "replace": {
+            "drupal/aggregator": "self.version",
+            "drupal/bartik": "self.version",
+            "drupal/block": "self.version",
+            "drupal/blog": "self.version",
+            "drupal/book": "self.version",
+            "drupal/color": "self.version",
+            "drupal/comment": "self.version",
+            "drupal/contact": "self.version",
+            "drupal/contextual": "self.version",
+            "drupal/dashboard": "self.version",
+            "drupal/dblog": "self.version",
+            "drupal/field": "self.version",
+            "drupal/field_sql_storage": "self.version",
+            "drupal/field_ui": "self.version",
+            "drupal/file": "self.version",
+            "drupal/filter": "self.version",
+            "drupal/forum": "self.version",
+            "drupal/garland": "self.version",
+            "drupal/help": "self.version",
+            "drupal/image": "self.version",
+            "drupal/list": "self.version",
+            "drupal/locale": "self.version",
+            "drupal/menu": "self.version",
+            "drupal/minimal": "self.version",
+            "drupal/node": "self.version",
+            "drupal/number": "self.version",
+            "drupal/openid": "self.version",
+            "drupal/options": "self.version",
+            "drupal/overlay": "self.version",
+            "drupal/path": "self.version",
+            "drupal/php": "self.version",
+            "drupal/poll": "self.version",
+            "drupal/profile": "self.version",
+            "drupal/rdf": "self.version",
+            "drupal/search": "self.version",
+            "drupal/seven": "self.version",
+            "drupal/shortcut": "self.version",
+            "drupal/standard": "self.version",
+            "drupal/stark": "self.version",
+            "drupal/statistics": "self.version",
+            "drupal/syslog": "self.version",
+            "drupal/system": "self.version",
+            "drupal/taxonomy": "self.version",
+            "drupal/text": "self.version",
+            "drupal/toolbar": "self.version",
+            "drupal/tracker": "self.version",
+            "drupal/translation": "self.version",
+            "drupal/trigger": "self.version",
+            "drupal/update": "self.version",
+            "drupal/user": "self.version"
+        },
+        "type": "non-destructive-archive-installer",
+        "extra": {
+            "target-dir": ".",
+            "omit-first-directory": "true"
+        }
+    }
+]
